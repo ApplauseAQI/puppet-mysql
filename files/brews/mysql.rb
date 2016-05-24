@@ -1,8 +1,8 @@
 class Mysql < Formula
   homepage "https://dev.mysql.com/doc/refman/5.6/en/"
+  #fixing link to mysql download, old one no longer exists
   url "https://s3.amazonaws.com/uTestBoxen/mysql-5.6.30-osx10.11-x86_64.tar.gz?AWSAccessKeyId=AKIAJVVOIXUIFRTEEEKQ&Expires=1620158074&Signature=QkWp2AdKTG%2Beyx45Zz6GZhbiC8g%3D"
- #fixing link to mysql download, old one no longer exists
-  #sha256 "15079c0b83d33a092649cbdf402c9225bcd3f33e87388407be5cdbf1432c7fbd"
+  sha256 "fcd96e85d9a298b6494c645377dc2260f1710c4ff7517d6381fdb69148983da8"
 
   option :universal
   option "with-tests", "Build with unit tests"
