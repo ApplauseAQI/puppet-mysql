@@ -2,9 +2,9 @@ class Mysql < Formula
   desc "Open source relational database management system"
   homepage "https://dev.mysql.com/doc/refman/5.6/en/"
   #fixing link to mysql download, old one no longer exists
-  url "https://s3.amazonaws.com/uTestBoxen/mysql-5.6.31_source.tar.gz?AWSAccessKeyId=AKIAJVVOIXUIFRTEEEKQ&Expires=1781376437&Signature=gYdUn2bTluXVYGxknnhXWMm/wa4%3D"
-  sha256 "6df1389bbf899025aee6be0f4a12b8b0135e6de7db83e3ea20201ad3633ba424"
-  version "5.6.31"
+  url "https://s3.amazonaws.com/uTestBoxen/mysql-5.6.25_source.tar.gz?AWSAccessKeyId=AKIAJVVOIXUIFRTEEEKQ&Expires=1781380161&Signature=BBNLx3Ji2qCyx1BL/JryDcRe%2BSA%3D"
+  sha256 "15079c0b83d33a092649cbdf402c9225bcd3f33e87388407be5cdbf1432c7fbd"
+  version "5.6.25" #ML: increase this version if you want boxen to reinstall mysql for everyone - but people will not be happy!
 
   option :universal
   option "with-tests", "Build with unit tests"
