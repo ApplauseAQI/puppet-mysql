@@ -2,8 +2,8 @@ class Mysql < Formula
   desc "Open source relational database management system"
   homepage "https://dev.mysql.com/doc/refman/5.6/en/"
   #fixing link to mysql download, old one no longer exists
-  url "https://s3.amazonaws.com/uTestBoxen/mysql-5.6.30-osx10.11-x86_64.tar.gz?AWSAccessKeyId=AKIAJVVOIXUIFRTEEEKQ&Expires=1620158074&Signature=QkWp2AdKTG%2Beyx45Zz6GZhbiC8g%3D"
-  sha256 "fcd96e85d9a298b6494c645377dc2260f1710c4ff7517d6381fdb69148983da8"
+  url "https://s3.amazonaws.com/uTestBoxen/mysql-5.6.31_source.tar.gz?AWSAccessKeyId=AKIAJVVOIXUIFRTEEEKQ&Expires=1781376437&Signature=gYdUn2bTluXVYGxknnhXWMm/wa4%3D"
+  sha256 "6df1389bbf899025aee6be0f4a12b8b0135e6de7db83e3ea20201ad3633ba424"
 
   option :universal
   option "with-tests", "Build with unit tests"
