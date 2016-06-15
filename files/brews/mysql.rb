@@ -1,8 +1,7 @@
 class Mysql < Formula
   desc "Open source relational database management system"
   homepage "https://dev.mysql.com/doc/refman/5.6/en/"
-  url "https://s3.amazonaws.com/uTestBoxen/mysql-5.6.30-osx10.11-x86_64.tar.gz?AWSAccessKeyId=AKIAJVVOIXUIFRTEEEKQ&Expires=1620158074&Signature=QkWp2AdKTG%2Beyx45Zz6GZhbiC8g%3D
-"
+  url "https://s3.amazonaws.com/uTestBoxen/mysql-5.6.30-osx10.11-x86_64.tar.gz?AWSAccessKeyId=AKIAJVVOIXUIFRTEEEKQ&Expires=1620158074&Signature=QkWp2AdKTG%2Beyx45Zz6GZhbiC8g%3D"
   #sha256 "8356bba23f3f6c0c2d4806110c41d1c4d6a4b9c50825e11c5be4bbee2b20b71d"
 
   option :universal
