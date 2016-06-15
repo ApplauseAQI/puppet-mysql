@@ -39,9 +39,10 @@ class Mysql < Formula
   def install
     # Don't hard-code the libtool path. See:
     # https://github.com/Homebrew/homebrew/issues/20185
-    inreplace "cmake/libutils.cmake",
-      "COMMAND /usr/bin/libtool -static -o ${TARGET_LOCATION}",
-      "COMMAND libtool -static -o ${TARGET_LOCATION}"
+    #ML: commenting this out, since boxen keeps failing with "could not find 'cmake/libutils.cmake'"
+    #inreplace "cmake/libutils.cmake",
+    #  "COMMAND /usr/bin/libtool -static -o ${TARGET_LOCATION}",
+    #  "COMMAND libtool -static -o ${TARGET_LOCATION}"
 
     # Build without compiler or CPU specific optimization flags to facilitate
     # compilation of gems and other software that queries `mysql-config`.
